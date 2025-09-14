@@ -5,6 +5,11 @@ terraform {
       version = "~> 6.0"
     }
   }
+  backend "s3" {
+    bucket = "aws-terraform-cnunez"
+    key    = "tests/tf-vpc.tfstate"
+    region = "us-west-2"
+  }
 }
 
 # Configure the AWS Provider
