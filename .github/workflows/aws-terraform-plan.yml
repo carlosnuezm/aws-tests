@@ -14,7 +14,7 @@ permissions:
 
 defaults:
   run:
-    working-directory: 'terraform/vpc-test'
+    working-directory: 'terraform/project'
 
 jobs:
   run_job_with_aws:
