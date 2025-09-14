@@ -11,7 +11,7 @@ resource "aws_vpc" "eks-vpc" {
 }
 
 resource "aws_subnet" "eks-subnet-private-us-west-2a" {
-  vpc_id     = aws_vpc.eks_vpc.id
+  vpc_id     = aws_vpc.eks-vpc.id
   cidr_block = "10.0.1.0/24"
   availability_zone = "us-west-2a"
   
@@ -21,7 +21,7 @@ resource "aws_subnet" "eks-subnet-private-us-west-2a" {
 }
 
 resource "aws_subnet" "eks-subnet-private-us-west-2b" {
-  vpc_id     = aws_vpc.eks_vpc.id
+  vpc_id     = aws_vpc.eks-vpc.id
   cidr_block = "10.0.2.0/24"
   availability_zone = "us-west-2b"
   
@@ -31,7 +31,7 @@ resource "aws_subnet" "eks-subnet-private-us-west-2b" {
 }
 
 resource "aws_subnet" "eks-subnet-private-us-west-2c" {
-  vpc_id     = aws_vpc.eks_vpc.id
+  vpc_id     = aws_vpc.eks-vpc.id
   cidr_block = "10.0.3.0/24"
   availability_zone = "us-west-2c"
   
