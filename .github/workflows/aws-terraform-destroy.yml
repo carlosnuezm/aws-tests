@@ -1,5 +1,5 @@
-name: AWS Terraform Plan
-run-name: AWS Terraform Plan
+name: AWS Terraform Destroy
+run-name: AWS Terraform Destroy
 
 on:
   workflow_dispatch:
