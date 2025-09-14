@@ -1,5 +1,5 @@
 name: AWS Terraform Apply
-run-name: AWS Terraform Apply ${{ github.event}}
+run-name: AWS Terraform Apply (PR #${{ github.event.pull_request.number }})
 
 on:
   push:
