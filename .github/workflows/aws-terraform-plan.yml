@@ -1,4 +1,5 @@
-name: AWS Terraform Example
+name: AWS Terraform Plan
+run-name: AWS Terraform Plan
 
 on:
   pull_request:
