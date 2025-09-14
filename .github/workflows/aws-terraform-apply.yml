@@ -2,6 +2,7 @@ name: AWS Terraform Apply
 run-name: AWS Terraform Apply
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
