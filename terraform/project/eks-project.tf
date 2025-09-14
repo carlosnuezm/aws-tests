@@ -1,3 +1,3 @@
 module "eks-project" {
-  source = "../modules/vpc"
+  source = "../modules/eks"
 }
