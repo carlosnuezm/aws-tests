@@ -1,4 +1,4 @@
-name: AWS Terraform Plan
+name: AWS Terraform Apply
 run-name: AWS Terraform Apply ${{ github.event}}
 
 on:
