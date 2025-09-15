@@ -1,6 +1,4 @@
 output "subnet_ids" {
   description = "Endpoint for EKS control plane"
-  value       = [module.vpc.aws_subnet.eks-subnet-private-us-west-2a.id,
-  module.vpc.aws_subnet.eks-subnet-private-us-west-2b.id,
-  module.vpc.aws_subnet.eks-subnet-private-us-west-2c.id]
+  value       = [aws_vpc.aws_subnet.eks-subnet-private-us-west-2a.id]
 }
